@@ -38,20 +38,7 @@ h2 {
 p {
   line-height: 1.5;
 }
-button {
-  display: block;
-  margin: auto;
-  border: 1px solid #f6378f;
-  background-color: white;
-  font-size: 18px;
-  border-radius: 6px;
-  padding: 10px 15px;
-  transition: all 150ems ease-in-out;
-}
-button:hover {
-  background-color: #f6378f;
-  cursor: pointer;
-}
+
 footer {
   text-align: center;
   margin: 15px 0;
