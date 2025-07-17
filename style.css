@@ -1,0 +1,108 @@
+body {
+  background: linear-gradient(
+    252.6deg,
+    rgb(255, 100, 241) 13.2%,
+    rgb(67, 220, 255) 81.3%
+  );
+}
+h1 {
+  text-align: center;
+  color: #f6378f;
+}
+h2 {
+  text-align: center;
+  color: #f6378f;
+}
+.Visit-Art {
+  display: block;
+  margin-top: 20px;
+  color: #f6378f;
+  text-decoration: none;
+}
+.container {
+  max-width: 600px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.Visit-Art:hover {
+  text-decoration: underline;
+}
+
+.Art-Content img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+p {
+  line-height: 1.5;
+}
+button {
+  display: block;
+  margin: auto;
+  border: 1px solid #f6378f;
+  background-color: white;
+  font-size: 18px;
+  border-radius: 6px;
+  padding: 10px 15px;
+  transition: all 150ems ease-in-out;
+}
+button:hover {
+  background-color: #f6378f;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  margin: 15px 0;
+  color: white;
+  font-size: 18px;
+}
+.theme-button {
+  font-size: 12px;
+  background-color: black;
+  color: white;
+  padding: 5px 8px;
+}
+.theme-button:hover {
+  color: black;
+  background-color: white;
+}
+.Art-Intro-Picture {
+  border-radius: 10px;
+  transition: opacity 150ms ease-in-out;
+}
+.Art-Intro-Picture:hover {
+  opacity: 0.7;
+  transform: scale(1.1);
+}
+.grid {
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 15px;
+}
+.grid img {
+  width: 100%;
+  border-radius: 8px;
+  transition: all 150ems ease-in-out;
+}
+
+.grid img:hover {
+  transform: scale(2);
+}
+.dark {
+  background: radial-gradient(
+    780px at 37.8% 100.3%,
+    rgb(19, 55, 115) 2.2%,
+    rgb(32, 7, 80) 20.2%,
+    rgb(27, 88, 111) 58.6%,
+    rgb(115, 88, 44) 75%,
+    rgb(99, 19, 90) 89.6%,
+    rgb(12, 51, 76) 96.1%
+  );
+  color: white;
+}
+.dark .container {
+  background: rgba(255, 255, 255, 0.1);
+}
