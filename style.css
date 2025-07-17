@@ -45,16 +45,7 @@ footer {
   color: white;
   font-size: 18px;
 }
-.theme-button {
-  font-size: 12px;
-  background-color: black;
-  color: white;
-  padding: 5px 8px;
-}
-.theme-button:hover {
-  color: black;
-  background-color: white;
-}
+
 .Art-Intro-Picture {
   border-radius: 10px;
   transition: opacity 150ms ease-in-out;
