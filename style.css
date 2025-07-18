@@ -4,6 +4,7 @@ body {
     rgb(255, 100, 241) 13.2%,
     rgb(67, 220, 255) 81.3%
   );
+  font-family: "Roboto", sans-serif;
 }
 h1 {
   text-align: center;
@@ -13,22 +14,30 @@ h2 {
   text-align: center;
   color: #f6378f;
 }
-.Visit-Art {
+
+button {
   display: block;
-  margin-top: 20px;
-  color: #f6378f;
-  text-decoration: none;
+  margin: auto;
+  border: 1px solid #f6378f;
+  background-color: white;
+  font-size: 18px;
+  border-radius: 6px;
+  padding: 10px 15px;
+  transition: all 150ems ease-in-out;
+  line-height: 1.5;
 }
+
+button:hover {
+  background-color: #f6378f;
+  cursor: pointer;
+}
+
 .container {
   max-width: 600px;
   background-color: white;
   padding: 20px;
   border-radius: 10px;
   margin: 0 auto;
-}
-
-.Visit-Art:hover {
-  text-decoration: underline;
 }
 
 .Art-Content img {
@@ -44,6 +53,17 @@ footer {
   margin: 15px 0;
   color: white;
   font-size: 18px;
+}
+
+.theme-button {
+  font-size: 12px;
+  background-color: black;
+  color: white;
+  padding: 5px 8px;
+}
+.theme-button:hover {
+  color: black;
+  background-color: white;
 }
 
 .Art-Intro-Picture {
