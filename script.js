@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 let apiKey = "7e77fbbbab91e5504tfaaa75643of118";
 let prompt = "What is the best joke in the world?";
 let context = "Provide clear and precise answer. One joke at a time.";
