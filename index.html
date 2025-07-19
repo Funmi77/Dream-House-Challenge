@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,24 +14,17 @@
     <link rel="stylesheet" href="style.css" />
     <title>Dream-House-Challenge</title>
    </head>
-  <body class="">
-    <button class="theme-button">Change theme</button>
-
-    
+  <body>
     <div class="Art-Content">
       <div class="container">
-      
         <h1>My Dream Home</h1>
         <h2>Retro-Modern</h2>
-        
           <img
             src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/170/683/original/arno-senoner-Z-hiM9VFak0-unsplash.jpg?1752665986"
             alt=""
             class="Art-Intro-Picture"
           />
-          <button>Details</button>
-
-        </a>
+         </a>
         <div class="grid">
           <img
             src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/170/685/original/declan-sun-feKzUGM_5nU-unsplash.jpg?1752666053"
@@ -43,15 +38,11 @@
             src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/170/690/original/peter-thomas-Fs50QiIRzCA-unsplash.jpg?1752667060"
             alt=""
           />
-         
+          <button id="getDetails">Details</button>
+          <div id="details">
+        </div> 
         </div>
-
-        <p>
-          An architectural style is characterized by the features that make a building or other structure notable and historically identifiable. 
-          A style may include such elements as form, 
-          method of construction, building materials, and regional character.
-        </p>
-
+        </div>
       </div>
       <footer>
         This project was coded by
