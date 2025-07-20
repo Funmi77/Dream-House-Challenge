@@ -9,6 +9,11 @@ body {
 h1 {
   text-align: center;
   color: #f6378f;
+  font-size: 50px;
+  border: 1px solid #ffaaa5;
+  padding: 15px;
+  border-radius: 4px;
+  background-color: #ffaaa5;
 }
 
 button {
